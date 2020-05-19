@@ -1,0 +1,84 @@
+.App{
+  text-align: center;
+  color: white;
+}
+span{
+  color: rgb(36, 154, 250);
+  margin: 0;
+}
+.header{
+  background-color: rgb(78, 78, 78);
+  padding: 20px;
+}
+h1{
+  margin:0;
+}
+.book-list{
+  background-color: rgb(78, 78, 78);
+margin: 0;
+padding: 20px;
+border-top: 1px solid white;
+}
+h3{
+  margin: 0;
+  margin-bottom: 20px;
+}
+ul{
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: inline;
+  
+}
+a:first-child{
+  margin: 0;
+}
+.book-holder{
+  box-shadow: 0px 0px 44px -15px rgba(0,0,0,0.75);
+  padding: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.book-holder hr{
+  width: 60%;
+}
+button{
+  background-color: transparent;
+  color: white;
+  padding:5px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+button:last-child{
+  margin-left: 20px;
+}
+.book-form{
+  background-color: rgb(78, 78, 78);
+  padding: 20px;
+  padding-bottom: 40px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+input{
+  display:block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-bottom: 1px solid white;
+}
+input::placeholder{
+  color: rgba(255, 255, 255, 0.2);
+}
+form{
+  box-shadow: 0px 0px 44px -15px rgba(0,0,0,0.75);
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
